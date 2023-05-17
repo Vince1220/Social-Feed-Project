@@ -12,7 +12,9 @@ const CreatePostForm = (props) => {
             post: post
         };
         console.log(newPost);     
-        props.addNewPost(newPost)  
+        props.addNewPost(newPost) 
+        setName('') 
+        setPost ('')
     }
     return ( 
         <form onSubmit={handleSubmit}>
