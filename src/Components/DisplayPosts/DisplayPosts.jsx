@@ -15,6 +15,6 @@ const DisplayPosts = (props) => {
             </table>
         </div>
      );
-}
+};
  
 export default DisplayPosts;

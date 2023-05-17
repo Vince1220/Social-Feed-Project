@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './CreatePost.css';
 
 const CreatePostForm = (props) => {
     const [name, setName] = useState('');     
@@ -25,7 +26,7 @@ const CreatePostForm = (props) => {
                 <div className='form-group row'>
                     <label htmlFor='input post' className='col-sm-1 col-form-label'>Post</label>
                 <div className='col-sm-10'>
-                    <input type='text' onChange={(event) => setPost(event.target.value)} value={post}/>    {/*  sending data to hook on line 6 */}
+                    <input type='text' onChange={(event) => setPost(event.target.value)} value={post}/>    
                 </div>
                     </div>
                 <div className="form-group row">

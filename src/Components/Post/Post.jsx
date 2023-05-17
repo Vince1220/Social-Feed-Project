@@ -16,7 +16,8 @@ const Post = (props) =>{
         <tr>
             <td>{props.parentPost.name}</td>
             <td>{props.parentPost.post}</td>   
-            <td><button type='react' className={`fa fa-thumbs-${typeOfLike}`} onClick={handleLike}></button></td>
+            <td><button type='react' className={`fa fa-thumbs-${typeOfLike}`} onClick={handleLike}>Like</button></td>
+            <td><button type='react' className={`fa fa-thumbs-${typeOfLike}`} onClick={handleLike}>Dislike</button></td>          
         </tr>
          );
     }
